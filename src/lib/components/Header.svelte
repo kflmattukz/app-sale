@@ -7,7 +7,8 @@
 <header>
 	<Nav />
 	{#if $page.url.pathname === '/' || $page.url.pathname === ''}
-		<Hero></Hero>
+		<div>
+			<Hero></Hero>
+		</div>
 	{/if}
 </header>
-
